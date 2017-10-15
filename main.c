@@ -4,6 +4,7 @@
   2017-10-13*/
 
 #include "nodeList.h"
+#include "main.h"
 
 #include <stdio.h>
 #include <stdlib.h>

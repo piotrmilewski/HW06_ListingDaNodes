@@ -1,11 +1,11 @@
 all: nodeList.o main.o
-	gcc-4.8 -o listo nodeList.o main.o
+	gcc -o listo nodeList.o main.o
 
 main.o: main.c
-	gcc-4.8 -c main.c
+	gcc -c main.c
 
 nodeList.o: nodeList.c
-	gcc-4.8 -c nodeList.c
+	gcc -c nodeList.c
 
 run: all
 	./listo
